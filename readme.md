@@ -23,8 +23,16 @@ Problem Statement: GIT is not the only version control tool in the industry.
 Discussion Points:
 
 1. What are the version control tools used in the industry?
+The various types of the version control systems are:
+1. Local Version Control System
+2. Centralized Version Control System
+3. Distributed Version Control System
 
 1. Why are they being used?
+Local version control system maintains track of files within the local system. This approach is very common and simple. This type is also error prone which means the chances of accidentally writing to the wLocal version control system maintains track of files within the local system. This approach is very common and simple. This type is also error prone which means the chances of accidentally writing to the wrong file is higher.rong file is higher.
+
+Distributed version control systems come into picture to overcome the drawback of centralized version control system. The clients completely clone the repository including its full history. If any server dies, any of the client repositories can be copied on to the server which help restore the server.
+
 
 
 ### Part 2
@@ -42,11 +50,11 @@ Discussion Points:
 1. Which branching strategy looks the most practical for you personally?
 1. Consider the following scenarios, recommend a branching strategy suitable for the scenario, and explain why?
     a. Startup with less than 5 developers
-    b. Startup with multiple small team of developers (3 teams of 3 developers)
+      b. Startup with multiple small team of developers (3 teams of 3 developers)
     c. Startup with no specific team make up. It’s just a group of 8 developers.
     d. SME with multiple small team of developers (4 teams of 3 developers)
     e. MNC & Banking with multiple large team of developers (10 teams of 12 developers)
-
+    
 
 ## Submission Guidelines
 
