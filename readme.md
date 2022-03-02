@@ -25,6 +25,7 @@ Discussion Points:
 1. What are the version control tools used in the industry?
 
 1. Why are they being used?
+Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time.
 
 ### Part 2
 
