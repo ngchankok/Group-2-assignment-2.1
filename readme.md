@@ -39,17 +39,12 @@ Reference Links:
 Discussion Points:
 
 1. How many branching strategies are there? What are they?
-   > > There are 5 branching strategies. They are;
-   > > a) Trunk Branch
-   - In trunk-based development, the trunk is the central branch to which all developers send their code changes.
-     b) Development Branch
-   - The development branch is a long-lived feature branch that holds changes made by developers before they're ready to go to production.
-     c) Feature Branch
-   - Often used by a single developer for only their changes, but it is possible to share it with other developers.
-     d) Release Branch
-   - This reflects a set of changes that are intended to go through the production release process.
-     e) Hotfix Branch
-   - It is used generally to hold changes related to emergency bug fixes.
+   There are 5 branching strategies. They are;
+   a) Trunk Branch - In trunk-based development, the trunk is the central branch to which all developers send their code changes.
+   b) Development Branch - The development branch is a long-lived feature branch that holds changes made by developers before they're ready to go to production.
+   c) Feature Branch - Often used by a single developer for only their changes, but it is possible to share it with other developers.
+   d) Release Branch - This reflects a set of changes that are intended to go through the production release process.
+   e) Hotfix Branch - It is used generally to hold changes related to emergency bug fixes.
 1. Which branching strategy looks the most practical for you personally?
 1. Consider the following scenarios, recommend a branching strategy suitable for the scenario, and explain why?
    a. Startup with less than 5 developers
