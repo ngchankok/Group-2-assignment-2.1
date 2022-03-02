@@ -7,7 +7,6 @@ This is a research assignment where students will be given time for research and
 Version control tools are plenty and have wide range of practices. This research assignment aims to help learners expand their choice of version control tools (Part 1) and being acquainted with the branching strategies best practices in the industry (Part 2).
 
 | Time    | Item          |
-|---------|---------------|
 | 40 mins | Self readings |
 | 10 mins | Q&A           |
 | 10 mins | Break         |
@@ -16,6 +15,7 @@ Version control tools are plenty and have wide range of practices. This research
 
 ### Part 1
 
+
 Problem Statement: GIT is not the only version control tool in the industry. 
 
 [Reference Link](https://www.softwaretestinghelp.com/version-control-software/) or search online with key word "Version Control Tool".
@@ -23,8 +23,20 @@ Problem Statement: GIT is not the only version control tool in the industry.
 Discussion Points:
 
 1. What are the version control tools used in the industry?
+1. Why are they being used?
+
+The various types of the version control systems are:
+1. Local Version Control System
+2. Centralized Version Control System
+3. Distributed Version Control System
 
 1. Why are they being used?
+
+Local version control system maintains track of files within the local system. This approach is very common and simple. This type is also error prone which means the chances of accidentally writing to the wLocal version control system maintains track of files within the local system. This approach is very common and simple. This type is also error prone which means the chances of accidentally writing to the wrong file is higher.rong file is higher.
+
+Distributed version control systems come into picture to overcome the drawback of centralized version control system. The clients completely clone the repository including its full history. If any server dies, any of the client repositories can be copied on to the server which help restore the server.
+
+Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time.
 
 
 ### Part 2
@@ -33,27 +45,31 @@ Problem Statement: Branching strategy varies largely across companies’ practic
 
 Reference Links:
 - https://launchdarkly.com/blog/git-branching-strategies-vs-trunk-based-development/
-- https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy 
+- https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy
 - https://www.creativebloq.com/web-design/choose-right-git-branching-strategy-121518344
 
 Discussion Points:
 
 1. How many branching strategies are there? What are they?
-1. Which branching strategy looks the most practical for you personally?
+There are 5 branching strategies. They are;
+   a) Trunk Branch - In trunk-based development, the trunk is the central branch to which all developers send their code changes.
+   b) Development Branch - The development branch is a long-lived feature branch that holds changes made by developers before they're ready to go to production.
+   c) Feature Branch - Often used by a single developer for only their changes, but it is possible to share it with other developers.
+   d) Release Branch - This reflects a set of changes that are intended to go through the production release process.
+   e) Hotfix Branch - It is used generally to hold changes related to emergency bug fixes.
+
+3. Which branching strategy looks the most practical for you personally?
 The answer to which Git branch strategy is the best depends the team’s environment, product and specific development needs.
 There is not a one-size-fits-all Git branch strategy, and regardless of which one ends up selecting, it’s likely that one can optimize it with further modifications.
-
 However, of the three Git branch strategies, GitHub flow is the most simple. Because of the simplicity of the workflow, this Git branching strategy allows for Continuous Delivery and Continuous Integration. This Git branch strategy works great for small teams and web applications. As a beginner, it's best to use the simplest strategy for learning. Therefore, Github flow is most practical for a beginner. 
-
-
 
 1. Consider the following scenarios, recommend a branching strategy suitable for the scenario, and explain why?
     a. Startup with less than 5 developers
-    b. Startup with multiple small team of developers (3 teams of 3 developers)
+      b. Startup with multiple small team of developers (3 teams of 3 developers)
     c. Startup with no specific team make up. It’s just a group of 8 developers.
     d. SME with multiple small team of developers (4 teams of 3 developers)
     e. MNC & Banking with multiple large team of developers (10 teams of 12 developers)
-
+    
 
 ## Submission Guidelines
 
